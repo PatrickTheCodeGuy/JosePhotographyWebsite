@@ -72,6 +72,37 @@
 	margin-top: 120px;
 }
 
+.AboutmeContainer {
+	display: flex;
+}
+.image-container {
+	margin: 50px 2% 50px 13%;
+}
+
+.img {
+	max-width: 300px;
+	height: auto;
+}
+.aboutme-description {
+	margin: 50px 0 0 5%;
+}
+.paragraph {
+	text-align: left;
+	width: 70%;
+}
+.list {
+	text-align: left;
+}
+@media (max-width: 600px) {
+	.AboutmeContainer {
+		display: block;
+	}
+	.img {
+		max-width: 200px;
+		height: auto;
+		margin: 50px 0;
+	}
+}
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);
