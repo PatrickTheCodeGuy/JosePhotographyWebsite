@@ -98,9 +98,18 @@
 		display: block;
 	}
 	.img {
-		max-width: 200px;
+		max-width: 300px;
 		height: auto;
-		margin: 50px 0;
+		margin: 50px 10% 0 0;
+	}
+	.paragraph {
+		text-align: left;
+		width: 70%;
+		margin: 0 auto;
+	}
+	.list {
+		text-align: left;
+		margin: 0 auto 0 10%;
 	}
 }
 @keyframes App-logo-spin {
